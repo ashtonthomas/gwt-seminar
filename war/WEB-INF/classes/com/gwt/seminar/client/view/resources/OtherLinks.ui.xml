@@ -6,7 +6,9 @@
 			font-weight: bold;
 		}
 	</ui:style>
-	<g:HTMLPanel>
+	<g:ScrollPanel height="100%" width="100%">
+		<g:HTMLPanel height="400px">
 
-	</g:HTMLPanel>
+		</g:HTMLPanel>
+	</g:ScrollPanel>
 </ui:UiBinder> 

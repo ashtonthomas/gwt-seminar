@@ -51,7 +51,9 @@ public class ResourcesActivity extends AbstractActivity {
 		stackPanel.add(gwtLinks, "GWT Links");
 		stackPanel.add(otherLinks, "Other Links");
 		stackPanel.setWidth("100%");
-		stackPanel.setHeight("400px");
+		stackPanel.setHeight("100%");
+		
+		view.getContent().add(stackPanel);	
 		
 		/* Abstracting everything out into a a new view package (client.view.resources)
 		 * may be over kill for this but it shows one way of organizing 
@@ -60,7 +62,6 @@ public class ResourcesActivity extends AbstractActivity {
 	
 	@Override
 	public void start(AcceptsOneWidget panel, EventBus eventBus) {		
-		view.getContent().add(stackPanel);		
 		panel.setWidget(view.asWidget());
 	}
 

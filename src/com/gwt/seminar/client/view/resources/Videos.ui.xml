@@ -6,7 +6,20 @@
 			font-weight: bold;
 		}
 	</ui:style>
-	<g:HTMLPanel>
+	<g:ScrollPanel height="100%" width="100%">
+		<g:HTMLPanel height="400px">
+			<h2>GWT Introduction</h2>
+			<center>
+				<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/ShkYDPN5Knc?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ShkYDPN5Knc?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+			</center>
+			<br/><br/>
+			<h2>More Advanced Video</h2>
+			<center>
+				<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/M5x6E6ze1x8?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/M5x6E6ze1x8?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+			</center>
+	
+	
+		</g:HTMLPanel>
+	</g:ScrollPanel>
 
-	</g:HTMLPanel>
 </ui:UiBinder> 
