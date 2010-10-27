@@ -1,4 +1,4 @@
-package com.gwt.seminar.client.view;
+package com.gwt.seminar.client.view.resources;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -8,26 +8,19 @@ import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.Widget;
 
-public class ResourcesView extends Composite {
+public class SampleCode extends Composite {
 
-	private static ResourcesViewUiBinder uiBinder = GWT
-			.create(ResourcesViewUiBinder.class);
+	private static SampleCodeUiBinder uiBinder = GWT
+			.create(SampleCodeUiBinder.class);
 
-	interface ResourcesViewUiBinder extends UiBinder<Widget, ResourcesView> {
+	interface SampleCodeUiBinder extends UiBinder<Widget, SampleCode> {
 	}
-	
-	@UiField SimplePanel content;
 
-	public ResourcesView() {
+
+	public SampleCode() {
 		initWidget(uiBinder.createAndBindUi(this));
 	}
-	
-	public SimplePanel getContent(){
-		return content;
-	}
-	
 
 }

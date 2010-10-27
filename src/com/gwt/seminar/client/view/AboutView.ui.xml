@@ -2,11 +2,49 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui">
 	<ui:style>
-		.important {
-			font-weight: bold;
+		#content {
+			padding: 30px 30px 30px 30px;
+			margin: 30px 0 100px 0;	
+		}
+		
+		#content p {
+			max-width:600px;	
+		}
+		
+		#content a, a:visited {
+			color:#1111D9;	
+		}
+		
+		#content a:hover {
+			color:#0A0A83;
 		}
 	</ui:style>
 	<g:HTMLPanel>
-		In the about wooooo!
+		<div id="content">
+			<p>
+				This seminar is meant to help introduce advanced web developers to the 
+				new capabilities and ideas with the soon to be released 
+				Google Web Toolkit 2.1 (Release Candidate currently available)
+				<br/><br/>
+				Anyone is welcome to attend this free seminar. We only ask that you RSVP. The Information Systems 
+				Program at Carnegie Mellon along with Acrinta, LLC will host this event on November 30th at 6:00pm.
+				<br/><br/>
+				Feel free to contact <a href="mailto:gwt@acrinta.com">gwt@acrinta.com</a> with any questions or comments
+				about the seminar.
+				<br/><br/>
+				Since the seminar is bout learning GWT 2.1 and the popular topics dealing with building
+				large "enterprise" web applications, we have built this small app using many of the ideas
+				you will see in much larger GWT applications. We have also made the source code publicly
+				available at:<br/><br/>
+				<a href="http://www.github.com/ashtonthomas/gwt-seminar">http://www.github.com/ashtonthomas/gwt-seminar</a>
+			</p>
+			<br/><br/>
+			Here are some of the flyers for this event:<br/>
+			<br/>
+			<a href="http://www.andrew.cmu.edu/user/acthomas/flyer.pdf">Click Here for Flyer 1</a><br/><br/>
+			<a href="http://www.andrew.cmu.edu/user/acthomas/flyer2.pdf">Click Here for Flyer 2</a><br/><br/>
+			<a href="http://www.andrew.cmu.edu/user/acthomas/flyer3.pdf">Click Here for Flyer 3</a>
+		</div>
+		
 	</g:HTMLPanel>
 </ui:UiBinder> 

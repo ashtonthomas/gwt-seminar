@@ -2,15 +2,11 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui">
 	<ui:style>
-		#content {
-			min-height:100px;
+		.important {
+			font-weight: bold;
 		}
 	</ui:style>
-	
 	<g:HTMLPanel>
-		<div id="content">
-			<center><g:SimplePanel ui:field="content"></g:SimplePanel></center>
-		</div>
-	</g:HTMLPanel>
 
+	</g:HTMLPanel>
 </ui:UiBinder> 
