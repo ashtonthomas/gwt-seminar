@@ -18,15 +18,8 @@ public class HomeView extends Composite {
 
 	interface HomeViewUiBinder extends UiBinder<Widget, HomeView> {}
 
-	@UiField SimplePanel content;
 
 	public HomeView() {
 		initWidget(uiBinder.createAndBindUi(this));
 	}
-	
-	public SimplePanel getContent(){
-		return content;
-	}
-
-
 }

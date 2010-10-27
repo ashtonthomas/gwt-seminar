@@ -2,12 +2,56 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui">
 	<ui:style>
-		.important {
-			font-weight: bold;
+		#content_area {
+			padding: 20px 0 60px 80px;
+		}
+		
+		#content_area ul {
+			font-size: 14px;
+			line-height: 2em;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #494949;
+			text-decoration: none;
+			text-indent: 5px;
+			list-style-position: outside;
+			list-style-image: url(arrow.gif);
+			list-style-type: square;
+			padding: 10px 0 10px 75px;
+		}
+		
+		
+		#content_area a, a:visited {
+			color:#1111D9;	
+		}
+		
+		#content_area a:hover {
+			color:#0A0A83;
 		}
 	</ui:style>
 	<g:HTMLPanel>
-		<center>
-			<g:SimplePanel ui:field='content'></g:SimplePanel>
-		</center>	</g:HTMLPanel>
+		<div id="content_area">
+			<h2>Zero to "Enterprise" in 60 minutes</h2>
+			<br/>
+			<a href="#rsvp">RSVP</a> for a free seminar on GWT 2.1 and building powerful Rich Internet Applications
+			<br/><br/>
+			<ul>
+				<li>Model-View-Controller (MVP) with Activities</li>
+				<li>EventBus and the Command Pattern</li>
+				<li>Dependency Injection in client code using Gin</li>
+				<li>Data Synchronization using the RequestFactory</li>
+				<li>History and Navigation (keeping the "back" button)</li>
+				<li>Decoupling UI's using UiBinder</li>
+				<li>DTO's, Domains, and Databases</li>
+				<li>Dependency Management / POM with Maven</li>
+			</ul>
+			<br/><br/>
+			<h2>This site is a GWT App</h2>
+			And you can download the source -> <a href="http://github.com/ashtonthomas/gwt-seminar">From GitHub</a>.
+			<br/><br/><br/><br/>
+			<h3>This site has a mobile version too</h3>	
+			Just to show how these things work in GWT.		
+		</div>	
+	</g:HTMLPanel>
 </ui:UiBinder> 
