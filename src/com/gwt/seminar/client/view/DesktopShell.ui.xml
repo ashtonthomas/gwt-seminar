@@ -1,0 +1,106 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+		header, section, footer,
+		aside, nav, article, figure {
+			display: block;
+		}
+		
+		html {font-size:100.01%;}
+		body {font-size:75%;color:#333; background:#eee url('/images/bgnoise.png'); border-top:8px solid #FFFFFF; font-family:"Helvetica Neue", Arial, Helvetica, sans-serif; text-rendering: optimizelegibility;}
+		h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111; text-shadow: 0 1px #fff; letter-spacing: -0.05em;}
+		h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+		h2 {font-size:2em;margin-bottom:0.75em;}
+		h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
+		h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+		h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+		h6 {font-size:1em;font-weight:bold;}
+		p { font-size: 1.2em; margin: 0 0 1em; font-weight: lighter; text-shadow: 0 1px #fff; line-height: 1.25em;}
+		a { color: #333; text-decoration: none; -webkit-transition: color 0.4s linear; -moz-transition: color 0.4s linear; -o-transition: color 0.4s linear; }
+		a:hover { color: #000; }
+		a:active { position: relative; top: 1px; }
+		p {margin-bottom: 1em;}
+		p:last-child {margin-bottom: 0;}
+		
+		#wrapper {
+		  width: 980px;
+		  overflow: hidden;
+		  margin: 0 auto;
+		  clear: both;
+		  margin-top: 10px;
+		  padding: 20px;
+		}
+		
+		h1 { float: left; color: #666666; }
+		
+		header, section, footer { clear: both; margin-bottom: 6em;}
+		
+		
+		
+		nav ul {
+			font-size: 1em; 
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			height: 48px; 
+			border: 1px #DCDCDC solid; 
+			background: url('../images/noise.png') repeat-x; 
+			list-style: none; 
+			float: right; 
+			clear:right; 
+			margin-bottom: 40px;
+			-moz-box-shadow:0px 1px 1px #ccc;
+			-webkit-box-shadow:0px 1px 1px #ccc;
+			box-shadow:0px 1px 1px #ccc;
+			background-clip: padding-box;
+		}
+		nav li {float: left; display: inline; letter-spacing: 0.5px; border-right: 1px solid #DCDCDC;border-left:1px solid #FFF;}
+		nav li:first-child { border-left: none;}
+		nav li:first-child a { border-left: none;}
+		nav li:last-child { margin-right: 0; border-right: none;}
+		nav li.active { }
+		nav li a { padding: 18px 20px 18px 18px; text-shadow: 0 1px #fff; color: #676767; font-weight: bold; display:block; }
+		nav li a:visited { padding: 18px 20px 18px 18px; text-shadow: 0 1px #fff; color: #676767; font-weight: bold; display:block; }
+		nav li a:hover { -webkit-transition: background color 0.4s linear; -moz-transition: background color 0.4s linear; -o-transition: background color 0.4s linear; background: #FFF; color: #222;}
+				
+		footer { width: 980px; margin: 0 auto; padding-top: 10px; margin-top: 10px;}
+		footer p { color: #777; }
+		footer a, a:visited { color: #333333; }
+		footer a:hover{ color: rgba(0,0,200,1); }
+
+	
+		
+	</ui:style>
+	<g:ScrollPanel height="100%" width="100%">
+	<g:HTMLPanel>
+	<div id="wrapper">
+		<header>
+			<h1>GWT 2.1 Seminar 2010</h1>
+			
+			<nav><ul>
+				<li><g:SimplePanel ui:field="home_link"></g:SimplePanel></li>
+				<li><g:SimplePanel ui:field="rsvp_link"></g:SimplePanel></li>
+				<li><g:SimplePanel ui:field="about_link"></g:SimplePanel></li>
+				<li><g:SimplePanel ui:field="location_link"></g:SimplePanel></li>
+				<li><g:SimplePanel ui:field="resources_link"></g:SimplePanel></li>
+				<li><g:SimplePanel ui:field="contact_link"></g:SimplePanel></li>
+			</ul></nav>
+			
+		</header>
+		
+			<g:SimplePanel ui:field="content"></g:SimplePanel>
+		
+		
+		
+		<footer>
+	    	<p>A Free Seminar brought you by <a href="http://acrinta.com">Acrinta</a> and <a href="http://www.cmu.edu/information-systems/">Carnegie Mellon Information Systems</a></p>
+			<p>Developed by <a href="http://acrinta.com">Ashton Thomas</a>. Designed by <a href="http://www.nlevin.com/">Noah Levin</a></p>
+		</footer>
+	</div>
+	</g:HTMLPanel>
+	</g:ScrollPanel>
+		
+	
+
+</ui:UiBinder> 

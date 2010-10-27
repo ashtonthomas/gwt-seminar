@@ -1,0 +1,45 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.header {
+			
+		}
+		.menu {
+			
+		}
+		.content {
+			
+		}
+		.footer {
+			
+		}
+	</ui:style>
+	
+	<g:DockLayoutPanel unit="EM">
+		<g:north size="6">
+			<g:HTMLPanel>
+				<div class='{style.header'>
+					<g:SimplePanel ui:field='header'></g:SimplePanel>
+				</div>
+				<div class='{style.menu'>
+					<g:SimplePanel ui:field='menu'></g:SimplePanel>
+				</div>
+				<div>This is from the main MOBILE shell</div>
+			</g:HTMLPanel>
+		</g:north>
+		
+		<g:south size="5">
+			<g:SimplePanel ui:field="footer">
+				<g:HTMLPanel>...</g:HTMLPanel>
+			</g:SimplePanel>
+		</g:south>
+		
+		<g:center>
+			<g:SimplePanel ui:field="content"></g:SimplePanel>
+		</g:center>
+		
+		
+	</g:DockLayoutPanel>
+	
+</ui:UiBinder> 

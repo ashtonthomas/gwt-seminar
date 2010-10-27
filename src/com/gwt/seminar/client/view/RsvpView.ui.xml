@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+		<g:HTMLPanel>
+			<center>
+				<iframe src="https://spreadsheets.google.com/embeddedform?formkey=dDU5RENvMXZwMUladS15dzZpVml5NEE6MQ" width="760" height="760" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>	
+			</center>
+		</g:HTMLPanel>
+</ui:UiBinder> 
