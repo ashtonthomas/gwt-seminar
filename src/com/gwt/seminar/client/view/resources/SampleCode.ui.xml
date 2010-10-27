@@ -2,13 +2,51 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui">
 	<ui:style>
-		.important {
-			font-weight: bold;
+		#content {
+			margin: 10px 0 0 10px;
+			padding: 0px 0 0 0px;
 		}
 	</ui:style>
 	<g:ScrollPanel height="100%" width="100%">
 		<g:HTMLPanel height="400px">
-			<a href="http://github.com/ashtonthomas/gwt-seminar">The Source Code for this Application</a>
+			<div id="content">
+				<br/>
+				<h2>This Application</h2>
+				<a href="http://github.com/ashtonthomas/gwt-seminar">The Source Code for this Application</a> (MVP/DI/UiB)
+				<br/><br/><br/>
+				<h2>More Samples (Coming Soon)</h2>
+				
+				<br/><br/><br/>
+				<table style="width:300px">
+					<tr>
+						<td>MVP</td>
+						<td>=</td>
+						<td>Model-View-Presenter</td>
+					</tr>
+					<tr>
+						<td>DI</td>
+						<td>=</td>
+						<td>Dependency Injection (Gin)</td>
+					</tr>
+					<tr>
+						<td>FP</td>
+						<td>=</td>
+						<td>Factory Pattern</td>
+					</tr>
+					<tr>
+						<td>M</td>
+						<td>=</td>
+						<td>Maven</td>
+					</tr>
+					<tr>
+						<td>UiB</td>
+						<td>=</td>
+						<td>UiBinder</td>
+					</tr>
+				</table>
+
+				
+			</div>
 		</g:HTMLPanel>
 	</g:ScrollPanel>
 </ui:UiBinder> 

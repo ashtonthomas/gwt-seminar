@@ -9,6 +9,17 @@
 	<g:ScrollPanel height="100%" width="100%">
 		<g:HTMLPanel height="400px">
 
+			<br/>
+			<h3>2.1 Developer Guide</h3>
+			<a href="http://code.google.com/webtoolkit/doc/trunk/DevGuide.html">http://code.google.com/webtoolkit/doc/trunk/DevGuide.html</a>
+			
+			<br/><br/>
+			<h3>2.1 MVP</h3>
+			<a href="http://code.google.com/webtoolkit/doc/trunk/DevGuideMvpActivitiesAndPlaces.html">http://code.google.com/webtoolkit/doc/trunk/DevGuideMvpActivitiesAndPlaces.html</a>
+			
+			<br/><br/>
+			<h3>2.1 API JavaDoc Reference</h3>
+			<a href="http://google-web-toolkit.googlecode.com/svn/javadoc/2.1/index.html?overview-summary.html">http://google-web-toolkit.googlecode.com/svn/javadoc/2.1/index.html?overview-summary.html</a>
 		</g:HTMLPanel>
 	</g:ScrollPanel>
 </ui:UiBinder> 

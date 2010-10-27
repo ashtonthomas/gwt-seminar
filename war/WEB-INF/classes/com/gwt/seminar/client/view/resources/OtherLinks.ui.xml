@@ -8,7 +8,7 @@
 	</ui:style>
 	<g:ScrollPanel height="100%" width="100%">
 		<g:HTMLPanel height="400px">
-
+			coming soon
 		</g:HTMLPanel>
 	</g:ScrollPanel>
 </ui:UiBinder> 
