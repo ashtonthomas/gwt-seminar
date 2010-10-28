@@ -5,12 +5,75 @@
 		#content {
 			min-height:100px;
 		}
+		
+		#content a, a:visited {
+			color:#1111D9;	
+		}
+		
+		#content a:hover {
+			color:#0A0A83;
+		}
 	</ui:style>
 	
 	<g:HTMLPanel>
 		<div id="content">
 			<center><g:SimplePanel ui:field="content"></g:SimplePanel></center>
-		</div>
+		
+						<h2>This Application</h2>
+				<a href="http://github.com/ashtonthomas/gwt-seminar">The Source Code for this Application</a> (MVP/DI/UiB)
+				<br/><br/><br/>
+				<h2>More Samples (Coming Soon)</h2>
+				
+				<br/><br/><br/>
+				<table style="width:300px">
+					<tr>
+						<td>MVP</td>
+						<td>=</td>
+						<td>Model-View-Presenter</td>
+					</tr>
+					<tr>
+						<td>DI</td>
+						<td>=</td>
+						<td>Dependency Injection (Gin)</td>
+					</tr>
+					<tr>
+						<td>FP</td>
+						<td>=</td>
+						<td>Factory Pattern</td>
+					</tr>
+					<tr>
+						<td>M</td>
+						<td>=</td>
+						<td>Maven</td>
+					</tr>
+					<tr>
+						<td>UiB</td>
+						<td>=</td>
+						<td>UiBinder</td>
+					</tr>
+				</table><br/>
+
+			<br/>
+			<h3>2.1 Developer Guide</h3>
+			<a href="http://code.google.com/webtoolkit/doc/trunk/DevGuide.html">http://code.google.com/webtoolkit/doc/trunk/DevGuide.html</a>
+			
+			<br/><br/>
+			<h3>2.1 MVP</h3>
+			<a href="http://code.google.com/webtoolkit/doc/trunk/DevGuideMvpActivitiesAndPlaces.html">http://code.google.com/webtoolkit/doc/trunk/DevGuideMvpActivitiesAndPlaces.html</a>
+			
+			<br/><br/>
+			<h3>2.1 API JavaDoc Reference</h3>
+			<a href="http://google-web-toolkit.googlecode.com/svn/javadoc/2.1/index.html?overview-summary.html">http://google-web-toolkit.googlecode.com/svn/javadoc/2.1/index.html?overview-summary.html</a>
+	<br/><br/><br/><br/><br/><br/>
+								<center>
+				<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/ShkYDPN5Knc?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ShkYDPN5Knc?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+			</center>
+			<br/><br/>
+			<h2>More Advanced Video</h2>
+			<center>
+				<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/M5x6E6ze1x8?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/M5x6E6ze1x8?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+			</center>
+			</div>
 	</g:HTMLPanel>
 
 </ui:UiBinder> 
