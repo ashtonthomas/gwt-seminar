@@ -5,11 +5,14 @@
   <inherits name='com.google.gwt.user.theme.standard.Standard'/>
 
   <!-- Other module inherits                                      -->
+  <!-- We need the MVP stuff (Activity anc Place				  -->
+  <!-- I am also using DepInj with Gin (Inject)					  -->
+  <!-- and Resource for client bundle and stuff (not used yet)	  -->
+  <!--  and also Maps for the location stuff					  -->
   <inherits name='com.google.gwt.maps.GoogleMaps' />
   <inherits name="com.google.gwt.activity.Activity"/>
   <inherits name="com.google.gwt.place.Place"/>
   <inherits name="com.google.gwt.inject.Inject"/>
-  <inherits name="com.smartgwt.SmartGwt"/>
   <inherits name="com.google.gwt.resources.Resources"/>
 
   <!-- Specify the paths for translatable code                    -->
@@ -18,8 +21,10 @@
   
   <public path="public"/>
   
+  <!-- Define a property to determine if we are mobile or not	  -->
   <define-property name="mobile.user.agent" values="mobilesafari, none"/>
   
+  <!-- now lets actually do the checking 						  -->
   <property-provider name="mobile.user.agent">
   
   <![CDATA[
@@ -55,6 +60,10 @@
   
   </property-provider>
   
+  <!-- Now that we have our property that knows if we are building for a mobile -->
+  <!-- we can GWT what to do in the case that we are building for a mobile      -->
+  <!-- We are just going to use a different Injector (Change the Wrapper)	    -->
+  <!-- A different Wrapper will specify a different Type of Application (Desktop/Mobile) -->
   <replace-with class="com.gwt.seminar.client.application.ioc.DesktopInjectorWrapper">
   		<when-type-is class="com.gwt.seminar.client.application.ioc.DesktopInjectorWrapper"/>
   		<all>

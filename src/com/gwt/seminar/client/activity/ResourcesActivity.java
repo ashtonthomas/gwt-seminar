@@ -52,8 +52,8 @@ public class ResourcesActivity extends AbstractActivity {
 		stackPanel.add(otherLinks, "Other Links", 2);
 		stackPanel.setWidth("100%");
 		stackPanel.setHeight("100%");
-		
-		view.getContent().add(stackPanel);	
+		view.getContent().add(new HTML("resources coming soon"));
+		//view.getContent().add(stackPanel);	
 		
 		/* Abstracting everything out into a a new view package (client.view.resources)
 		 * may be over kill for this but it shows one way of organizing 

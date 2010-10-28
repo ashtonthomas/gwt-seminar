@@ -37,7 +37,7 @@
 			<a href="#rsvp">RSVP</a> for a free seminar on GWT 2.1 and building powerful Rich Internet Applications
 			<br/><br/>
 			<ul>
-				<li>Model-View-Controller (MVP) with Activities</li>
+				<li>Model-View-Presenter (MVP) with Activities</li>
 				<li>EventBus and the Command Pattern</li>
 				<li>Dependency Injection in client code using Gin</li>
 				<li>Data Synchronization using the RequestFactory</li>
@@ -51,7 +51,10 @@
 			And you can download the source -> <a href="http://github.com/ashtonthomas/gwt-seminar">From GitHub</a>.
 			<br/><br/><br/><br/>
 			<h3>This site has a mobile version too</h3>	
-			Just to show how these things work in GWT.		
+			Just to show how these things work in GWT.	
+			
+			<br/><br/><br/>
+			*This site is currently being updated.	
 		</div>	
 	</g:HTMLPanel>
 </ui:UiBinder> 
