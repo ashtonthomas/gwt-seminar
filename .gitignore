@@ -1,4 +1,5 @@
 .DS_Store
-war/gwt-seminar/*.html
-war/gwt-seminar/*.png
-war/gwt-seminar/*.js
+war/gwt_seminar/*.html
+war/gwt_seminar/*.png
+war/gwt_seminar/*.js
+war/gwt_seminar/
