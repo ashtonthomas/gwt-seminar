@@ -55,7 +55,7 @@
   
   </property-provider>
   
-  <replace-with class="com.gwt.seminar.client.application.ioc.MobileInjectorWrapper">
+  <replace-with class="com.gwt.seminar.client.application.ioc.DesktopInjectorWrapper">
   		<when-type-is class="com.gwt.seminar.client.application.ioc.DesktopInjectorWrapper"/>
   		<all>
   			<when-property-is name="mobile.user.agent" value="mobilesafari"/>

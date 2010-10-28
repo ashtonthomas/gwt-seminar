@@ -24,7 +24,7 @@ public class ResourcesActivity extends AbstractActivity {
 	private Videos videos;
 	private GwtLinks gwtLinks;
 	private OtherLinks otherLinks;
-	private StackPanel stackPanel;
+	private StackLayoutPanel stackPanel;
 	
 	@Inject
 	public ResourcesActivity(ResourcesView view, SampleCode sampleCode, Videos videos,
@@ -45,11 +45,11 @@ public class ResourcesActivity extends AbstractActivity {
 		 * so the full StackPanel is just reused each time
 		 * someone visits the Resources Place */
 		
-		stackPanel = new StackPanel();
-		stackPanel.add(sampleCode, "Sample Code");
-		stackPanel.add(videos, "Videos");
-		stackPanel.add(gwtLinks, "GWT Links");
-		stackPanel.add(otherLinks, "Other Links");
+		stackPanel = new StackLayoutPanel(Unit.EM);
+		stackPanel.add(sampleCode, "Sample Code", 2);
+		stackPanel.add(videos, "Videos", 2);
+		stackPanel.add(gwtLinks, "GWT Links", 2);
+		stackPanel.add(otherLinks, "Other Links", 2);
 		stackPanel.setWidth("100%");
 		stackPanel.setHeight("100%");
 		
