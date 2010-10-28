@@ -50,6 +50,8 @@
 			<h2>This site is a GWT App</h2>
 			And you can download the source -> <a href="http://github.com/ashtonthomas/gwt-seminar">From GitHub</a>.
 			<br/><br/>
+			<a href="#resources">View Resources</a> for more sample code, links, and resources.
+			<br/><br/>
 			This site is 100% Javascript but still keeps the back button and is maintainable over many developers.<br/>
 			This may seem like another small web 2.0 app, but the structure is the same as a far more complex application.
 			<br/>
