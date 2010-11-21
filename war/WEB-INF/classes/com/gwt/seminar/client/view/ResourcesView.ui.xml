@@ -19,7 +19,7 @@
 		<div id="content">
 			<center><g:SimplePanel ui:field="content"></g:SimplePanel></center>
 		
-						<h2>This Application</h2>
+				<h2>This Application</h2>
 				<a href="http://github.com/ashtonthomas/gwt-seminar">The Source Code for this Application</a> (MVP/DI/UiB)
 				<br/><br/><br/>
 				
@@ -27,8 +27,13 @@
 				<a href="https://github.com/ashtonthomas/base-app">Base App with Spring Integration</a> (Spring)
 				<br/><br/><br/>
 				
+				<h2>Sample App Building on top of Base GWT App (Above)</h2>
+				<a href="https://github.com/ashtonthomas/sample-gwt">Sample GWT App</a> (MVP/DI/UiB/Spring)
+				<br/><br/><br/>
 				
-				<h2>More Samples (Coming Soon)</h2>
+				
+				
+				
 				
 				<br/><br/><br/>
 				<table style="width:300px">
